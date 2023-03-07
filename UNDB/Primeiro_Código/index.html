@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Esta é minha primeira página</title>
+    <style>
+        body {
+            background-color: #add8e6;
+            /* Código hexadecimal para a cor azul claro */
+        }
+    </style>
+</head>
+
+<body>
+    <h1><i>Bem-vindo à <u>minha</u> página!</i></h1>
+    <p>Olá, seja bem-vindo ao meu site! Aqui você encontrará informações sobre mim e meus projetos.</p>
+    <p>Esse sou eu:</p>
+    <img src="eu.jpg" alt="Minha foto">
+
+    <button id="meuBotao">Clique em mim!</button>
+
+    <p>Caso fique com dúvida sobre o idioma, click no link abaixo</p>
+
+    <a href="https://translate.google.com.br/?hl=pt-BR">Google translate</a>
+
+    <br>Paragrafo 1
+
+    <br>Paragrafo 2
+
+    <p>Paragrafo 3</p>
+    <p>Paragrafo 4</p>
+    <script>
+        // Seleciona o botão pelo ID
+        const meuBotao = document.querySelector("#meuBotao");
+
+        // Adiciona um evento de clique ao botão
+        meuBotao.addEventListener("click", function () {
+            alert("Você clicou no botão!");
+        });
+    </script>
+
+    <ul>
+        <li><a href="sobre.html">Sobre mim</a></li>
+        <li><a href="projetos.html">Projetos</a></li>
+        <li><a href="contato.html">Contato</a></li>
+    </ul>
+
+    <img src="PC gamer.jpg" alt="Isso é um pc gamer">
+    <h3>Computador Gamer Completo AMD 10-Core, CPU 3.8Ghz 8GB</h3>
+    <h3>R5 2GB, SSD e HD 2TB, Kit Gamer Skill Monitor HDMI LED 19.5" Casual</h3>
+    <p>Compre clicando no link abaixo</p>
+    <a
+        href="https://www.kabum.com.br/produto/150578/computador-gamer-completo-amd-10-core-cpu-3-8ghz-8gb-radeon-r5-2gb-ssd-e-hd-2tb-kit-gamer-skill-monitor-hdmi-led-19-5-casual">Compre
+        agora!</a>
+</body>
+<table>
+    <tr>
+        <th>NOME</th>
+        <th></th>
+        <th>IDADE</th>
+        <th></th>
+        <th>PROFISSÃO</th>
+    </tr>
+
+    <tr>
+        <td>João</td>
+        <th></th>
+        <td>30</td>
+        <th></th>
+        <td>Engenheiro</td>
+    </tr>
+    
+    <tr>
+        <td>Maria</td>
+        <th></th>
+        <td>25</td>
+        <th></th>
+        <td>Advogada</td>
+    </tr>
+</table>
+
+</html>
